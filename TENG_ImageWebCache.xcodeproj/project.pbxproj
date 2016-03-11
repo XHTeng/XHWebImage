@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC1DAF71C78560900BBBCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DAF61C78560900BBBCD7 /* main.m */; };
+		AFC1DAFA1C78560900BBBCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DAF91C78560900BBBCD7 /* AppDelegate.m */; };
+		AFC1DAFD1C78560900BBBCD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DAFC1C78560900BBBCD7 /* ViewController.m */; };
+		AFC1DB001C78560900BBBCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC1DAFE1C78560900BBBCD7 /* Main.storyboard */; };
+		AFC1DB021C78560900BBBCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC1DB011C78560900BBBCD7 /* Assets.xcassets */; };
+		AFC1DB051C78560900BBBCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC1DB031C78560900BBBCD7 /* LaunchScreen.storyboard */; };
+		AFC1DB101C78560900BBBCD7 /* TENG_ImageWebCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB0F1C78560900BBBCD7 /* TENG_ImageWebCacheTests.m */; };
+		AFC1DB1B1C78560900BBBCD7 /* TENG_ImageWebCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB1A1C78560900BBBCD7 /* TENG_ImageWebCacheUITests.m */; };
+		AFC1DB2A1C78573E00BBBCD7 /* TENGDonwloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB291C78573E00BBBCD7 /* TENGDonwloadOperation.m */; };
+		AFC1DB2D1C78576F00BBBCD7 /* TENGDownloadOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB2C1C78576F00BBBCD7 /* TENGDownloadOperationManager.m */; };
+		AFC1DB301C7857BB00BBBCD7 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB2F1C7857BB00BBBCD7 /* UIImageView+WebCache.m */; };
+		AFC1DB331C785ADB00BBBCD7 /* HMAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB321C785ADB00BBBCD7 /* HMAppInfo.m */; };
+		AFC1DB381C78772700BBBCD7 /* NSString+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1DB361C78772700BBBCD7 /* NSString+Sandbox.m */; };
+		AFC1DB3D1C78883600BBBCD7 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFC1DB3C1C78883600BBBCD7 /* apps.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC1DB0C1C78560900BBBCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1DAEA1C78560900BBBCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC1DAF11C78560900BBBCD7;
+			remoteInfo = TENG_ImageWebCache;
+		};
+		AFC1DB171C78560900BBBCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC1DAEA1C78560900BBBCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC1DAF11C78560900BBBCD7;
+			remoteInfo = TENG_ImageWebCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC1DAF21C78560900BBBCD7 /* TENG_ImageWebCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENG_ImageWebCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC1DAF61C78560900BBBCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC1DAF81C78560900BBBCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFC1DAF91C78560900BBBCD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFC1DAFB1C78560900BBBCD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFC1DAFC1C78560900BBBCD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFC1DAFF1C78560900BBBCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC1DB011C78560900BBBCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC1DB041C78560900BBBCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC1DB061C78560900BBBCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC1DB0B1C78560900BBBCD7 /* TENG_ImageWebCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENG_ImageWebCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC1DB0F1C78560900BBBCD7 /* TENG_ImageWebCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TENG_ImageWebCacheTests.m; sourceTree = "<group>"; };
+		AFC1DB111C78560900BBBCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC1DB161C78560900BBBCD7 /* TENG_ImageWebCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENG_ImageWebCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC1DB1A1C78560900BBBCD7 /* TENG_ImageWebCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TENG_ImageWebCacheUITests.m; sourceTree = "<group>"; };
+		AFC1DB1C1C78560900BBBCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC1DB281C78573E00BBBCD7 /* TENGDonwloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENGDonwloadOperation.h; sourceTree = "<group>"; };
+		AFC1DB291C78573E00BBBCD7 /* TENGDonwloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENGDonwloadOperation.m; sourceTree = "<group>"; };
+		AFC1DB2B1C78576F00BBBCD7 /* TENGDownloadOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENGDownloadOperationManager.h; sourceTree = "<group>"; };
+		AFC1DB2C1C78576F00BBBCD7 /* TENGDownloadOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENGDownloadOperationManager.m; sourceTree = "<group>"; };
+		AFC1DB2E1C7857BB00BBBCD7 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		AFC1DB2F1C7857BB00BBBCD7 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		AFC1DB311C785ADB00BBBCD7 /* HMAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAppInfo.h; sourceTree = "<group>"; };
+		AFC1DB321C785ADB00BBBCD7 /* HMAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAppInfo.m; sourceTree = "<group>"; };
+		AFC1DB361C78772700BBBCD7 /* NSString+Sandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sandbox.m"; sourceTree = "<group>"; };
+		AFC1DB371C78772700BBBCD7 /* NSString+Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sandbox.h"; sourceTree = "<group>"; };
+		AFC1DB3B1C787AC700BBBCD7 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		AFC1DB3C1C78883600BBBCD7 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC1DAEF1C78560900BBBCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB081C78560900BBBCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB131C78560900BBBCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC1DAE91C78560900BBBCD7 = {
+			isa = PBXGroup;
+			children = (
+				AFC1DAF41C78560900BBBCD7 /* TENG_ImageWebCache */,
+				AFC1DB0E1C78560900BBBCD7 /* TENG_ImageWebCacheTests */,
+				AFC1DB191C78560900BBBCD7 /* TENG_ImageWebCacheUITests */,
+				AFC1DAF31C78560900BBBCD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC1DAF31C78560900BBBCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1DAF21C78560900BBBCD7 /* TENG_ImageWebCache.app */,
+				AFC1DB0B1C78560900BBBCD7 /* TENG_ImageWebCacheTests.xctest */,
+				AFC1DB161C78560900BBBCD7 /* TENG_ImageWebCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC1DAF41C78560900BBBCD7 /* TENG_ImageWebCache */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1DB3B1C787AC700BBBCD7 /* Singleton.h */,
+				AFC1DB361C78772700BBBCD7 /* NSString+Sandbox.m */,
+				AFC1DB371C78772700BBBCD7 /* NSString+Sandbox.h */,
+				AFC1DB311C785ADB00BBBCD7 /* HMAppInfo.h */,
+				AFC1DB321C785ADB00BBBCD7 /* HMAppInfo.m */,
+				AFC1DAF81C78560900BBBCD7 /* AppDelegate.h */,
+				AFC1DAF91C78560900BBBCD7 /* AppDelegate.m */,
+				AFC1DAFB1C78560900BBBCD7 /* ViewController.h */,
+				AFC1DAFC1C78560900BBBCD7 /* ViewController.m */,
+				AFC1DB281C78573E00BBBCD7 /* TENGDonwloadOperation.h */,
+				AFC1DB291C78573E00BBBCD7 /* TENGDonwloadOperation.m */,
+				AFC1DB2B1C78576F00BBBCD7 /* TENGDownloadOperationManager.h */,
+				AFC1DB2C1C78576F00BBBCD7 /* TENGDownloadOperationManager.m */,
+				AFC1DB2E1C7857BB00BBBCD7 /* UIImageView+WebCache.h */,
+				AFC1DB2F1C7857BB00BBBCD7 /* UIImageView+WebCache.m */,
+				AFC1DAFE1C78560900BBBCD7 /* Main.storyboard */,
+				AFC1DB011C78560900BBBCD7 /* Assets.xcassets */,
+				AFC1DB031C78560900BBBCD7 /* LaunchScreen.storyboard */,
+				AFC1DB061C78560900BBBCD7 /* Info.plist */,
+				AFC1DB3C1C78883600BBBCD7 /* apps.plist */,
+				AFC1DAF51C78560900BBBCD7 /* Supporting Files */,
+			);
+			path = TENG_ImageWebCache;
+			sourceTree = "<group>";
+		};
+		AFC1DAF51C78560900BBBCD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1DAF61C78560900BBBCD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFC1DB0E1C78560900BBBCD7 /* TENG_ImageWebCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1DB0F1C78560900BBBCD7 /* TENG_ImageWebCacheTests.m */,
+				AFC1DB111C78560900BBBCD7 /* Info.plist */,
+			);
+			path = TENG_ImageWebCacheTests;
+			sourceTree = "<group>";
+		};
+		AFC1DB191C78560900BBBCD7 /* TENG_ImageWebCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1DB1A1C78560900BBBCD7 /* TENG_ImageWebCacheUITests.m */,
+				AFC1DB1C1C78560900BBBCD7 /* Info.plist */,
+			);
+			path = TENG_ImageWebCacheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC1DAF11C78560900BBBCD7 /* TENG_ImageWebCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC1DB1F1C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCache" */;
+			buildPhases = (
+				AFC1DAEE1C78560900BBBCD7 /* Sources */,
+				AFC1DAEF1C78560900BBBCD7 /* Frameworks */,
+				AFC1DAF01C78560900BBBCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TENG_ImageWebCache;
+			productName = TENG_ImageWebCache;
+			productReference = AFC1DAF21C78560900BBBCD7 /* TENG_ImageWebCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC1DB0A1C78560900BBBCD7 /* TENG_ImageWebCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC1DB221C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCacheTests" */;
+			buildPhases = (
+				AFC1DB071C78560900BBBCD7 /* Sources */,
+				AFC1DB081C78560900BBBCD7 /* Frameworks */,
+				AFC1DB091C78560900BBBCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC1DB0D1C78560900BBBCD7 /* PBXTargetDependency */,
+			);
+			name = TENG_ImageWebCacheTests;
+			productName = TENG_ImageWebCacheTests;
+			productReference = AFC1DB0B1C78560900BBBCD7 /* TENG_ImageWebCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC1DB151C78560900BBBCD7 /* TENG_ImageWebCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC1DB251C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCacheUITests" */;
+			buildPhases = (
+				AFC1DB121C78560900BBBCD7 /* Sources */,
+				AFC1DB131C78560900BBBCD7 /* Frameworks */,
+				AFC1DB141C78560900BBBCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC1DB181C78560900BBBCD7 /* PBXTargetDependency */,
+			);
+			name = TENG_ImageWebCacheUITests;
+			productName = TENG_ImageWebCacheUITests;
+			productReference = AFC1DB161C78560900BBBCD7 /* TENG_ImageWebCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC1DAEA1C78560900BBBCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = craneteng;
+				TargetAttributes = {
+					AFC1DAF11C78560900BBBCD7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AFC1DB0A1C78560900BBBCD7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AFC1DAF11C78560900BBBCD7;
+					};
+					AFC1DB151C78560900BBBCD7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AFC1DAF11C78560900BBBCD7;
+					};
+				};
+			};
+			buildConfigurationList = AFC1DAED1C78560900BBBCD7 /* Build configuration list for PBXProject "TENG_ImageWebCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC1DAE91C78560900BBBCD7;
+			productRefGroup = AFC1DAF31C78560900BBBCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC1DAF11C78560900BBBCD7 /* TENG_ImageWebCache */,
+				AFC1DB0A1C78560900BBBCD7 /* TENG_ImageWebCacheTests */,
+				AFC1DB151C78560900BBBCD7 /* TENG_ImageWebCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC1DAF01C78560900BBBCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC1DB3D1C78883600BBBCD7 /* apps.plist in Resources */,
+				AFC1DB051C78560900BBBCD7 /* LaunchScreen.storyboard in Resources */,
+				AFC1DB021C78560900BBBCD7 /* Assets.xcassets in Resources */,
+				AFC1DB001C78560900BBBCD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB091C78560900BBBCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB141C78560900BBBCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC1DAEE1C78560900BBBCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC1DAFD1C78560900BBBCD7 /* ViewController.m in Sources */,
+				AFC1DB2A1C78573E00BBBCD7 /* TENGDonwloadOperation.m in Sources */,
+				AFC1DB301C7857BB00BBBCD7 /* UIImageView+WebCache.m in Sources */,
+				AFC1DB331C785ADB00BBBCD7 /* HMAppInfo.m in Sources */,
+				AFC1DAFA1C78560900BBBCD7 /* AppDelegate.m in Sources */,
+				AFC1DAF71C78560900BBBCD7 /* main.m in Sources */,
+				AFC1DB2D1C78576F00BBBCD7 /* TENGDownloadOperationManager.m in Sources */,
+				AFC1DB381C78772700BBBCD7 /* NSString+Sandbox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB071C78560900BBBCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC1DB101C78560900BBBCD7 /* TENG_ImageWebCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC1DB121C78560900BBBCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC1DB1B1C78560900BBBCD7 /* TENG_ImageWebCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC1DB0D1C78560900BBBCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC1DAF11C78560900BBBCD7 /* TENG_ImageWebCache */;
+			targetProxy = AFC1DB0C1C78560900BBBCD7 /* PBXContainerItemProxy */;
+		};
+		AFC1DB181C78560900BBBCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC1DAF11C78560900BBBCD7 /* TENG_ImageWebCache */;
+			targetProxy = AFC1DB171C78560900BBBCD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC1DAFE1C78560900BBBCD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC1DAFF1C78560900BBBCD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC1DB031C78560900BBBCD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC1DB041C78560900BBBCD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC1DB1D1C78560900BBBCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC1DB1E1C78560900BBBCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC1DB201C78560900BBBCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENG_ImageWebCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC1DB211C78560900BBBCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENG_ImageWebCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFC1DB231C78560900BBBCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TENG_ImageWebCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENG_ImageWebCache.app/TENG_ImageWebCache";
+			};
+			name = Debug;
+		};
+		AFC1DB241C78560900BBBCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TENG_ImageWebCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENG_ImageWebCache.app/TENG_ImageWebCache";
+			};
+			name = Release;
+		};
+		AFC1DB261C78560900BBBCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TENG_ImageWebCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TENG_ImageWebCache;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFC1DB271C78560900BBBCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TENG_ImageWebCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.craneteng.TENG-ImageWebCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TENG_ImageWebCache;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC1DAED1C78560900BBBCD7 /* Build configuration list for PBXProject "TENG_ImageWebCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC1DB1D1C78560900BBBCD7 /* Debug */,
+				AFC1DB1E1C78560900BBBCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC1DB1F1C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC1DB201C78560900BBBCD7 /* Debug */,
+				AFC1DB211C78560900BBBCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC1DB221C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC1DB231C78560900BBBCD7 /* Debug */,
+				AFC1DB241C78560900BBBCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC1DB251C78560900BBBCD7 /* Build configuration list for PBXNativeTarget "TENG_ImageWebCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC1DB261C78560900BBBCD7 /* Debug */,
+				AFC1DB271C78560900BBBCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC1DAEA1C78560900BBBCD7 /* Project object */;
+}
